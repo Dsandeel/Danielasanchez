@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME DESIGNER</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+    <body>
+        <header>
+            <div class="containerinicio">
+                <div class="logo-section">
+                    <img src="imagenes/logo.jpg" alt="Logo Consultoria">                    
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#recursos">Recursos </a></li>
+                        <li><a href="#eventos">Eventos</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#clientes">Clientes</a></li>
+                    </ul>
+                    <div class="hamburger-menu">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section id="inicio" class="hero">
+            <div class="containercuerpo">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2>"Bienvenidos"</h2>
+                        <p>" ¡Bienvenidos a HOME DESIGNER! Tu destino para crear espacios únicos y acogedores. ¡Descubre tu estilo y haz de tu hogar un lugar especial!
+
+                            "</p>
+                    </div>
+                </div>           
+            </div>
+        </section>
+            
+
+
+
+     
+        <section class="proyectos">
+            <div class="fila-proyectos">
+                <h2>   Proyectos  </h2>
+
+                <p>   Nuestros proyectos llevados acabo exitosamente. </p>
+            </div>
+            
+            <div class="fila-elementos">
+                <div class="elemento">
+                    <img src="imagenes/1.jpg" alt="Imagen">
+                    <h3>Residencia Moderna en la Ciudad</h3>
+                    <p>Residencia Urbana Elegante</p>
+                    <a href="#">Comprar $<?php echo rand(100, 500); ?></a>
+                </div>
+                <div class="elemento">
+                    <img src="imagenes/2.jpg" alt="Imagen">
+                    <h3>Renovacion de Apartamento en el Centro Historico</h3>
+                    <p>Renovación de Encanto Histórico</p>
+                    <a href="#">Comprar $<?php echo rand(100, 500); ?></a>
+                </div>
+                <div class="elemento">
+                    <img src="imagenes/3.jpg" alt="Imagen">
+                    <h3>Diseño de Oficina Corporativa Innovadora</h3>
+                    <p>Espacio de Trabajo Creativo</p>
+                    <a href="#">Comprar $<?php echo rand(100, 500); ?></a>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="formulario">
+            <div class="contact-form">
+                <DIV>
+                    <div class="TITULO">
+                        <h2>Contactanos</h2>
+                        <p>"¿Listo para transformar tu empresa? ¡Contáctanos y lleva tu negocio al siguiente nivel!"</p> 
+                    </div>                            
+                    <form id="formbloque">
+                        <div class="form-group">
+                            <label for="name">Nombre/Nombre de empresa:</label>
+                            <input type="text" id="name" name="name" required placeholder="Ejemplo: ING. Carlos/Muebles INKA S.A.C">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" rows="8" required placeholder="Llene los campos.">
+                                
+                            </textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar</button>          
+                    </form>
+                </DIV>                    
+            </div>  
+        </section>
+
+
+
+
+
+
+
+        <section id="clientes" class="clients">
+            <div class="container">
+                <h2>Clientes Satisfechos</h2>
+                <div class="client-logos">
+                    <div class="client-logo">
+                        <img src="imagenes/logo.promart.jpg" alt="Promart Homecenter">
+                        <h3>Promart Homecenter</h3>
+
+                    </div>
+                    <div class="client-logo">
+                        <img src="imagenes/logo.cdecora.png" alt="Cdecora">
+                        <h3>Cdecora</h3>
+                
+                    </div>
+                    <div class="client-logo">
+                        <img src="imagenes/logo.casaideas.webp" alt="Casaideas">
+                        <h3>Casaideas</h3>
+                    </div>
+
+                    <div class="client-logo">
+                        <img src="imagenes/logo.porfirio.jpg" alt="Porfirio">
+                        <h3>Porfirio</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="whatsapp-icon" class="whatsapp-icon">
+                <a href="https://wa.me/51992997600" target="_blank">
+                    <img src="imagenes/watsap.jpeg" alt="Icono de WhatsApp">
+                </a>
+            </div>
+         </section> 
+
+        <footer>
+            
+            <div class="footer-content">
+                <div class="contactosredes">
+                    <div class="1">
+                        <h3>Contáctanos</h3>
+                        <ul>
+                            <li>Dirección: Pueblo libre, Lima,Peru</li>
+                            <li>Teléfono: +51 992993200</li>
+                            <li>Email: daniela956sanchez@gmail.com</li>
+                        </ul> 
+                    </div>
+                    <div class="2">
+                        <h3>Redes Sociales</h3>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                            <li><a href="tiktok.com/@omer_ing"><i class="fab fa-TIK TOK"></i> TIK TOK</a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        </ul>
+                    </div>                                               
+                </div>
+                <div class="creditos">
+                    <p>&copy; 2024 HOME DESIGNER. Todos los derechos reservados.</p>                 
+                </div>
+            </div>
+        </footer>        
+    </body>
+</html>
+
+
+
